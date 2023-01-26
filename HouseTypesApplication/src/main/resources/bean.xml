@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+
+
+    <bean id="house1" class="houseTypes.House">
+        <constructor-arg name="name" value="house1"/>
+        <constructor-arg name="price" value="500000"/>
+        <constructor-arg name="hall" value="1"/>
+        <constructor-arg name="room" value="1"/>
+        <constructor-arg name="squareMeters" value="80"/>
+    </bean>
+
+    <bean id="house2" class="houseTypes.House">
+        <constructor-arg name="name" value="house2"/>
+        <constructor-arg name="price" value="750000"/>
+        <constructor-arg name="hall" value="1"/>
+        <constructor-arg name="room" value="2"/>
+        <constructor-arg name="squareMeters" value="110"/>
+    </bean>
+
+    <bean id="house3" class="houseTypes.House">
+        <constructor-arg name="name" value="house3"/>
+        <constructor-arg name="price" value="600000"/>
+        <constructor-arg name="hall" value="1"/>
+        <constructor-arg name="room" value="2"/>
+        <constructor-arg name="squareMeters" value="130"/>
+    </bean>
+
+    <bean id="villa1" class="houseTypes.House">
+        <constructor-arg name="name" value="villa1"/>
+        <constructor-arg name="price" value="1300000"/>
+        <constructor-arg name="hall" value="1"/>
+        <constructor-arg name="room" value="3"/>
+        <constructor-arg name="squareMeters" value="300"/>
+    </bean>
+
+    <bean id="villa2" class="houseTypes.House">
+        <constructor-arg name="name" value="villa2"/>
+        <constructor-arg name="price" value="1500000"/>
+        <constructor-arg name="hall" value="2"/>
+        <constructor-arg name="room" value="3"/>
+        <constructor-arg name="squareMeters" value="350"/>
+    </bean>
+
+    <bean id="villa3" class="houseTypes.House">
+        <constructor-arg name="name" value="villa3"/>
+        <constructor-arg name="price" value="1800000"/>
+        <constructor-arg name="hall" value="2"/>
+        <constructor-arg name="room" value="3"/>
+        <constructor-arg name="squareMeters" value="450"/>
+    </bean>
+
+    <bean id="summerHouse1" class="houseTypes.House">
+        <constructor-arg name="name" value="summerHouse1"/>
+        <constructor-arg name="price" value="5400000"/>
+        <constructor-arg name="hall" value="2"/>
+        <constructor-arg name="room" value="4"/>
+        <constructor-arg name="squareMeters" value="650"/>
+    </bean>
+
+    <bean id="summerHouse2" class="houseTypes.House">
+        <constructor-arg name="name" value="summerHouse2"/>
+        <constructor-arg name="price" value="8500000"/>
+        <constructor-arg name="hall" value="1"/>
+        <constructor-arg name="room" value="4"/>
+        <constructor-arg name="squareMeters" value="800"/>
+    </bean>
+
+    <bean id="summerHouse3" class="houseTypes.House">
+        <constructor-arg name="name" value="summerHouse3"/>
+        <constructor-arg name="price" value="10000000"/>
+        <constructor-arg name="hall" value="3"/>
+        <constructor-arg name="room" value="5"/>
+        <constructor-arg name="squareMeters" value="1500"/>
+    </bean>
+
+
+
+    <bean id="service" class="service.Service"/>
+
+
+
+
+</beans>
